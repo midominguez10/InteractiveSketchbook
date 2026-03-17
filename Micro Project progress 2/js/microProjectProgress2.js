@@ -101,6 +101,10 @@ function drawShape(type, shapeX, shapeY) {
     }
     if (type === "square"){
         rect (shapeX-40, shapeY-40,80,80);
+        ellipse(shapeX,shapeY,75,75);
+    }
+    if (type === "square"){
+        rect (shapeX-37.5, shapeY-37.5,75,75);
         
     }
     if (type==="triangle"){
