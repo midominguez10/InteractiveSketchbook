@@ -1,0 +1,104 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.page{
+    width:100%;
+    margin:0;
+    background-color: white;
+
+    padding-bottom: 30px;
+}
+
+h1{
+    background-color: rgb(220,220,220);
+    padding: 25px;
+    text-align:center;
+    font-size:28px;
+    margin:0;
+}
+
+.back{
+    display: block;
+    width:100px;
+    margin:10px 20px;
+    padding:10px;
+    background-color: rgb(220,220,220);
+    color: black;
+    text-align:center;
+    text-decoration: none;
+    font-size:20px;
+    font-weight: bold;
+}
+
+.back:hover{
+    background-color: rgb(190,190,190);
+}
+
+.sketch{
+    width:100%;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    font-size: 22px;
+}
+
+canvas{
+    display:block;
+    margin:20px auto;
+}
+
+h3{
+    width:75%;
+    margin: 25px auto 0 auto;
+    font-size: 18px;
+}
+
+p{
+    width:75%;
+    margin: 0 auto 20px auto;
+    font-size:16px;
+}
+
+@media screen and (max-width:440px){
+body {
+    margin:0;
+    padding: 0;
+}
+
+h1{
+    font-size:24px;
+    padding:20px 10px;
+}
+
+.back{
+    width:90px;
+    padding: 10px;
+    font-size: 18px;
+    margin: 10px;
+}
+h2 {
+    font-size:18px;
+}
+
+.sketch{
+    width:95%;
+    height: auto;
+}
+
+h3{
+    width: 90%;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+p{
+    width:90%;
+    font-size: 14px;
+}
+
+}

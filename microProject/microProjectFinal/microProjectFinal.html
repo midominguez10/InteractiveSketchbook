@@ -6,23 +6,33 @@
     
     <!-- p5 core -->
 <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
+<link rel="stylesheet" href="style.css">
 </head>
-<body>
-<h1>Ride to School</h1>
 
-<h2>Part 1</h2>
+<body>
+
+<div class="page">
+<h1>MICHAEL'S INTERACTIVE SKETCHBOOK - Micro Project Final</h1>
+
+<a class="back" href="../microProjectHome.html">BACK</a>
+
+<h2>Ride to School</h2>
+
+<div class="sketch">
+<script src="js/microProjectFinal.js"></script>
+</div>
+
+<h3>Part 1</h3>
 <p>Interaction starts with the space button. The only thing I have for now is the circle that will be moving back and forth. X starts at 500 in a 1000,1000 frame so it starts in the middle. The timer decreases at every frame. The x position of the circle updates. Whenever it reaches the end of the frame it goes the opposite direction.</p>
 
-<h2>Part 2</h2>
+<h3>Part 2</h3>
 <p>Right now on this part of the build is the start page and when you press the space button the green circle will move left and right and 3 shapes will appear. If you press space again under those shapes they will take time off your timer. The tension in this system is the timer. I am still planning a game over if the third stage of the game has -0 seconds and a good ending for when there is more than 0 seconds.</p>
 
-<h2>Final Submission</h2>
+<h3>Final Submission</h3>
 <p>For this final submission based off the feedback added some instructions to clarify the game better and even a key. I made the shapes bigger and closer to the bottom and changed the green circle into a green diamond as it may cause confusion and make the player think to only choose circle. Made sure to add more variables to make the game reshuffle and make sure there were only 3 selections made before the game ends. If the timer is under 0 then you are late and you lose and if it over 0 then you made it on time to class and you win.
-    I also added a difficulty after every shape was chosen and made it so when pick the shape then it will get faster. It was bugged at the start because it would be in consistent speed when the shape were chosen but found out it was like this because when the diamond is going left then it is going less than 0 so i had to add if and else for that part.
+    I also added a difficulty after every sha pe was chosen and made it so when pick the shape then it will get faster. It was bugged at the start because it would be in consistent speed when the shape were chosen but found out it was like this because when the diamond is going left then it is going less than 0 so i had to add if and else for that part.
 </p>
 
-
-<script src="js/microProjectFinal.js"></script>
-
+</div>
 </body>
 </html>

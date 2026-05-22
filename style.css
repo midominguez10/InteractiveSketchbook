@@ -1,12 +1,17 @@
 body{
     background-color: rgb(70,130,180);
     font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
 }
 
 h1{
     background-color: white;
     padding: 30px;
     margin-bottom: 15px;
+    font-size: 35px;
+        padding: 45px 35px;
+        margin: 0;
 }
 
 .section-button{
@@ -14,7 +19,7 @@ h1{
     text-decoration: none;
     background-color:white;
     color: black;
-    font-size:30px;
+    font-size: 25px;
     font-weight: bold;
     text-align: center;
     padding: 50px;
@@ -23,4 +28,25 @@ h1{
 
 .section-button:hover{
     background-color: rgb(205, 205, 205);
+}
+
+@media screen and (max-width:440px){
+    body{
+        margin:0;
+        padding:0;
+    }
+
+    h1{
+        font-size:24px;
+        padding: 25px 15px;
+        margin: 0 0 15px 0;
+        text-align: center;
+    }
+
+    .section-button{
+        width:85%;
+        margin:20px;
+        padding: 30px 5px;
+        font-size: 20px;
+    }
 }
